@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="VacancyTableViewCell" customModule="HeadHunterSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Должность" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tju-lf-wt7">
+                        <rect key="frame" x="16" y="11" width="291.5" height="22"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Работодатель" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mGR-YB-kgH">
+                        <rect key="frame" x="16" y="33" width="291.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="wP5-Rh-jxl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="ЗП" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqA-bv-k2x">
+                        <rect key="frame" x="315.5" y="22" width="22.5" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tju-lf-wt7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Rs7-io-LIa"/>
+                    <constraint firstItem="tju-lf-wt7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aE2-fS-ECx"/>
+                    <constraint firstItem="BqA-bv-k2x" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="b2r-Bb-8OH"/>
+                    <constraint firstItem="mGR-YB-kgH" firstAttribute="width" secondItem="tju-lf-wt7" secondAttribute="width" id="buW-3t-gfu"/>
+                    <constraint firstItem="mGR-YB-kgH" firstAttribute="top" secondItem="tju-lf-wt7" secondAttribute="bottom" id="iil-JP-tGy"/>
+                    <constraint firstItem="mGR-YB-kgH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="oYj-bu-gFF"/>
+                    <constraint firstItem="BqA-bv-k2x" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="qjB-bH-D2y"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mGR-YB-kgH" secondAttribute="bottom" id="tpb-TB-ryc"/>
+                    <constraint firstItem="BqA-bv-k2x" firstAttribute="leading" secondItem="tju-lf-wt7" secondAttribute="trailing" constant="8" id="zy2-Gv-7EI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="employerLabel" destination="mGR-YB-kgH" id="BJj-YU-FDx"/>
+                <outlet property="nameLabel" destination="tju-lf-wt7" id="5Hk-go-eaR"/>
+                <outlet property="priceLabel" destination="BqA-bv-k2x" id="Imd-Xk-Oif"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="79.160419790104953"/>
+        </tableViewCell>
+    </objects>
+</document>
