@@ -15,7 +15,6 @@
 		0CA39DE121AD98A700D76128 /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA39DE021AD98A700D76128 /* Root.storyboard */; };
 		0CA39DE321AD98B400D76128 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA39DE221AD98B400D76128 /* RootTableViewController.swift */; };
 		0CA39DE721AD98ED00D76128 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA39DE621AD98ED00D76128 /* APIManager.swift */; };
-		0CA39DE921AD990D00D76128 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA39DE821AD990D00D76128 /* DBManager.swift */; };
 		0CA39DEE21AD993A00D76128 /* VacancyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA39DEC21AD993A00D76128 /* VacancyTableViewCell.swift */; };
 		0CA39DEF21AD993A00D76128 /* VacancyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA39DED21AD993A00D76128 /* VacancyTableViewCell.xib */; };
 		0CA39DF221AD9AB900D76128 /* HeadHunterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA39DF121AD9AB900D76128 /* HeadHunterObject.swift */; };
@@ -33,7 +32,6 @@
 		0CA39DE021AD98A700D76128 /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		0CA39DE221AD98B400D76128 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
 		0CA39DE621AD98ED00D76128 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		0CA39DE821AD990D00D76128 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		0CA39DEC21AD993A00D76128 /* VacancyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyTableViewCell.swift; sourceTree = "<group>"; };
 		0CA39DED21AD993A00D76128 /* VacancyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyTableViewCell.xib; sourceTree = "<group>"; };
 		0CA39DF121AD9AB900D76128 /* HeadHunterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadHunterObject.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				0CA39DE621AD98ED00D76128 /* APIManager.swift */,
-				0CA39DE821AD990D00D76128 /* DBManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -221,7 +218,6 @@
 				0CA39DE321AD98B400D76128 /* RootTableViewController.swift in Sources */,
 				0CA39DE721AD98ED00D76128 /* APIManager.swift in Sources */,
 				0CA39DCE21AD988400D76128 /* AppDelegate.swift in Sources */,
-				0CA39DE921AD990D00D76128 /* DBManager.swift in Sources */,
 				0CA39DF221AD9AB900D76128 /* HeadHunterObject.swift in Sources */,
 				0CA39DF521AD9B3D00D76128 /* UIViewController+Alert.swift in Sources */,
 				0C2C389F21ADD109001A8018 /* PlaceholderTableViewCell.swift in Sources */,
